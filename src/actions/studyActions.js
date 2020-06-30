@@ -5,7 +5,7 @@ import { header } from '../lib/Helper'
 export const getStudies = async () => {
     //const url = getAPI('getStudies')
  //   const url = "https://localhost:44391/api/studies";
-    const url = "http://cyteltopapi-dev.ap-south-1.elasticbeanstalk.com/api/studies";
+    const url = "http://localhost:3000/studies";
     const result = await axios({
         url,
         method: 'GET',
@@ -22,7 +22,7 @@ export const createStudy = async study => {
 
     //const url = getAPI('createStudies')
    //  const url = "https://localhost:44391/api/studies";
-    const url = "http://cyteltopapi-dev.ap-south-1.elasticbeanstalk.com/api/studies";
+    const url = "http://localhost:3000/studies";
     const result = await axios({
         url,
         method: 'POST',

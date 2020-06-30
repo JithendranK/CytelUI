@@ -9,10 +9,10 @@
         "build",
         "tool"
     ],
-    "author": "Rohit Shrivastava",
+    "author": "Emids",
     "repository": {
         "type": "git",
-        "url": "https://github.com/EmidsRohit/react-redux-webpack-saga.git"
+        "url": "https://github.com/JithendranK/CytelUI.git"
     },
     "license": "ISC",
     "scripts": {
